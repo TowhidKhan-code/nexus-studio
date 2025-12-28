@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Towhid Khan">
+    <meta name="description" content="A responsive website for a creative digital agency called 'Nexus Studio.'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Studio - Creative Digital Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" href="./assets/icon.webp" type="image/x-icon">   
+</head>
+<body>
+     <header>
+         <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img src="./assets/logo.webp" alt="Nexus Studio Logo" loading="lazy">
+                <!-- <span class="logo-text">Nexus Studio</span> Fallback text if needed -->
+            </a>
+        </div>
+        <nav class="nav-bar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn">Get in Touch</a>
+     </header> 
+
+     <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">We Craft Digital Experiences That Matter</h1>
+                <p class="hero-subtitle">A creative digital agency specializing in bold branding, stunning web design, and impactful marketing strategies.</p>
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </div>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <!-- Service 1: Web Design & Development -->
+                <div class="service-card">
+                    <i class="fas fa-laptop-code service-icon"></i>
+                    <h3 class="card-title">Web Design & Development</h3>
+                    <p class="card-info">Beautiful, responsive websites built for performance and seamless user experience.</p>
+                </div>
+
+                <!-- Service 2: Branding & Identity -->
+                <div class="service-card">
+                    <i class="fas fa-pen-nib service-icon"></i>
+                    <h3 class="card-title">Branding & Identity</h3>
+                    <p class="card-info">Unique visual identities that tell your story and resonate with your audience.</p>
+                </div>
+
+                <!-- Service 3: Digital Marketing -->
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3 class="card-title">Digital Marketing</h3>
+                    <p class="card-info">Data-driven strategies that drive growth, engagement, and measurable results.</p>
+                </div>
+
+                <!-- Service 4: UI/UX Design -->
+                <div class="service-card">
+                    <i class="fas fa-lightbulb service-icon"></i>
+                    <h3 class="card-title">UI/UX Design</h3>
+                    <p class="card-info">User-centered experiences that are intuitive, engaging, and conversion-focused.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="recent-work">
+            <h2>Recent Work</h2>
+            <div class="work-grid">
+                <figure class="work-item">
+                    <img src="./assets/work1.avif" alt="Modern e-commerce website redesign" loading="lazy">
+                    <figcaption class="overlay">View Project</figcaption>
+                </figure>
+                <figure class="work-item">
+                    <img src="./assets/work2.webp" alt="Bold brand identity for tech startup" loading="lazy">
+                    <figcaption class="overlay">View Project</figcaption>
+                </figure>
+                <figure class="work-item">
+                    <img src="./assets/work3.webp" alt="Digital marketing campaign dashboard" loading="lazy">
+                    <figcaption class="overlay">View Project</figcaption>   
+                </figure>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Clients Say</h2>
+            <div class="testimonials-grid">
+                <blockquote>
+                    <p>"Nexus Studio transformed our brand — innovative, professional, and on-point."</p>
+                    <cite>— CEO, Tech Startup</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"Best agency we've worked with. Delivered beyond expectations."</p>
+                    <cite>— Marketing Director, E-commerce Brand</cite>
+                </blockquote>
+            </div>
+        </section>
+     </main>
+
+     <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./assets/logo.webp" alt="Nexus Studio Logo" loading="lazy">
+                <span>Nexus Studio 2025 &copy; All rights reserved.</span>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Follow us on X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Watch us on YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <nav class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+     </footer>
+</body>
+</html>
