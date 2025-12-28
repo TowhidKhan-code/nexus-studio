@@ -22,7 +22,7 @@ Perfect portfolio piece for showcasing advanced HTML/CSS skills.
 
 ## 🚀 Live Demo
 
-[View Live Site →](https://your-username.github.io/nexus-studio)  
+[View Live Site →](https://towhidkhan-code.github.io/nexus-studio/index.html)  
 *(Update this link after deploying via GitHub Pages)*
 
 
@@ -56,7 +56,7 @@ NEXUS-STUDIO/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nexus-studio.git
+   git clone https://github.com/TowhidKhan-code/nexus-studio.git
 
 
 📝 License
